@@ -1,0 +1,68 @@
+x = 5
+if x == 5:
+    print("equals to five")
+if x < 4:
+    print("is less than five")
+if x >= 5:
+    print("greater or equal to five")
+if x <= 5:
+    print("less or equal to five")
+if x != 6:
+    print("is not equal to six")
+print("endddddddd")                
+
+x = 5
+print("before five")
+if x == 5:
+    print("is five")
+    print("is still five")
+    print("is stillllll five")
+print("after five")
+if x == 6:
+    print("is six")
+    print("is still six")
+    print("is stilllll six")
+print("afterwards six")     
+
+
+x = 5
+if x > 2:
+    print("greater than two")
+    print("still greater")
+print("done with 2")     
+
+for i in range(5):
+    print(i)
+    if i > 2:
+        print("bigger than two")
+    print("done with i", i)
+print("done with all")          
+
+
+
+x = 43
+if x < 100:
+    print("lesser than 100")
+    if x > 1:
+        print("greater than 1")
+print("done")     
+
+x = 5
+if x > 1:
+    print("greater")
+else:
+    print("smaller")       
+
+
+x = int(input("Enter the number you want to check"))
+print("x")
+if x > 100:
+    print("greater")
+elif x < 50:
+    print("medium")
+elif x < 20:
+    print("low")
+elif x < 1:
+    print("low")
+else:
+    print("not applicable")                
