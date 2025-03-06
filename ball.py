@@ -22,7 +22,7 @@ ball_speed_x, ball_speed_y = 5, 5
 # Clock
 clock = pygame.time.Clock()
 
-# Main game loop
+# Main loop
 def main():
     global ball_x, ball_y, ball_speed_x, ball_speed_y
 
